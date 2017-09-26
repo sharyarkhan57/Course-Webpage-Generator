@@ -1,0 +1,306 @@
+
+{
+    "startHour":"0",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"Kanye West",
+            "email":"kanye.west@stonybrook.edu"
+        },
+        {
+            "name":"Mac DeMarco",
+            "email":"mac.demarco@stonybrook.edu"
+        },
+        {
+            "name":"Sharyar Khan",
+            "email":"sharyar.khan@stonybrook.edu"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"12_00pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"MONDAY",
+            "time":"12_30pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"MONDAY",
+            "time":"1_00pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"MONDAY",
+            "time":"1_30pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"12_00pm",
+            "name":"Kanye"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"12_30pm",
+            "name":"Kanye"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"1_00pm",
+            "name":"Kanye"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"1_30pm",
+            "name":"Kanye"
+        }
+    ],
+    "recitations":[
+        {
+            "section":"R01 (McKenna)",
+            "day_time":"Monday, 3:30pm-4:30pm",
+            "location":"Javits 100",
+            "ta_1":"Joe Shmoe",
+            "ta_2":"John Doe"
+        },
+        {
+            "section":"R02 (Banerjee)",
+            "day_time":"Tuesday, 3:30pm-4:30pm",
+            "location":"OLD CS 2178",
+            "ta_1":"Kendall Jenner",
+            "ta_2":"Mila Kunis"
+        },
+        {
+            "section":"R01 (Esmaili)",
+            "day_time":"Wednesday, 1:30pm-2:30pm",
+            "location":"Frey 101",
+            "ta_1":"Taylor Swift",
+            "ta_2":"Hillary Clinton"
+        },
+        {
+            "section":"R02 (JWONG)",
+            "day_time":"Fridau, 10:30am-1:30pm",
+            "location":"Javits 100",
+            "ta_1":"Joe Shmoe",
+            "ta_2":"John Doe"
+        }
+    ],
+    "startingMondayMonth":"1",
+    "startingMondayDay":"27",
+    "endingFridayMonth":"5",
+    "endingFridayDay":"17",
+    "holiday":[
+        {
+            "month":"4",
+            "day":"1",
+            "title":"April Fools",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        }
+    ],
+    "lectures":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"lecture",
+            "topic":"Java 1",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"lecture",
+            "topic":"Java 2",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"8",
+            "title":"lecture",
+            "topic":"Java 3",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"10",
+            "title":"lecture",
+            "topic":"Java 4",
+            "link":"reddit.com"
+        }
+    ],
+    "references":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"References",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"References",
+            "link":"reddit.com"
+        }
+    ],
+    "recitationss":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"Recitation 1",
+            "topic":"JavaFX Examples part 2"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"Recitation 2",
+            "topic":"JavaFX Examples part 2"
+        }
+    ],
+    "hws":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"HW 1",
+            "topic":"due at 11:59pm",
+            "link":"reddit.com",
+            "time":"",
+            "criteria":"https://docs.google.com/"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"HW 2",
+            "topic":"due at 11:59pm",
+            "link":"reddit.com",
+            "time":"",
+            "criteria":"https://docs.google.com/"
+        }
+    ],
+    "teams":[
+        {
+            "name":"Best Team",
+            "red":0,
+            "green":0,
+            "blue":0,
+            "text_color":"black",
+            "link":"google.com"
+        },
+        {
+            "name":"Dream Team",
+            "red":1,
+            "green":1,
+            "blue":1,
+            "text_color":"white",
+            "link":"ask.com"
+        }
+    ],
+    "students":[
+        {
+            "lastName":"Khan",
+            "firstName":"Sharyar",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Grande",
+            "firstName":"Ariana",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Stalin",
+            "firstName":"Jospeh",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Trump",
+            "firstName":"Donald",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"West",
+            "firstName":"Kanye",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"James",
+            "firstName":"Lebron",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"DADDY",
+            "firstName":"Trump",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Sweatshirt",
+            "firstName":"Earl",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        }
+    ],
+    "work":{
+        "semesters":"Spring 2017",
+        "projects":[
+            {
+                "name":"Best Team"
+            },
+            {
+                "students":[
+                    "Sharyar Khan",
+                    "Ariana Grande",
+                    "Jospeh Stalin",
+                    "Donald Trump"
+                ]
+            },
+            {
+                "link":"google.com"
+            },
+            {
+                "name":"Dream Team"
+            },
+            {
+                "students":[
+                    "Kanye West",
+                    "Lebron James",
+                    "Trump DADDY",
+                    "Earl Sweatshirt"
+                ]
+            },
+            {
+                "link":"ask.com"
+            }
+        ]
+    }
+}

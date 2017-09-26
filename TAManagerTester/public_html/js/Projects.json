@@ -1,0 +1,36 @@
+
+{
+    "work":{
+        "semesters":" ",
+        "projects":[
+            {
+                "name":"Best Team"
+            },
+            {
+                "students":[
+                    "Sharyar Khan",
+                    "Ariana Grande",
+                    "Jospeh Stalin",
+                    "Donald Trump"
+                ]
+            },
+            {
+                "link":"google.com"
+            },
+            {
+                "name":"Dream Team"
+            },
+            {
+                "students":[
+                    "Kanye West",
+                    "Lebron James",
+                    "Trump DADDY",
+                    "Earl Sweatshirt"
+                ]
+            },
+            {
+                "link":"ask.com"
+            }
+        ]
+    }
+}

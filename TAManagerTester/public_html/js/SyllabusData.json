@@ -1,0 +1,94 @@
+
+{
+    "startHour":"0",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"Kanye West",
+            "email":"kanye.west@stonybrook.edu",
+            "undergrad":"true"
+        },
+        {
+            "name":"Mac DeMarco",
+            "email":"mac.demarco@stonybrook.edu",
+            "undergrad":"false"
+        },
+        {
+            "name":"Sharyar Khan",
+            "email":"sharyar.khan@stonybrook.edu",
+            "undergrad":"true"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"12_00pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"12_00pm",
+            "name":"Kanye"
+        },
+        {
+            "day":"MONDAY",
+            "time":"12_30pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"12_30pm",
+            "name":"Kanye"
+        },
+        {
+            "day":"MONDAY",
+            "time":"1_00pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"1_00pm",
+            "name":"Kanye"
+        },
+        {
+            "day":"MONDAY",
+            "time":"1_30pm",
+            "name":"Sharyar"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"1_30pm",
+            "name":"Kanye"
+        }
+    ],
+    "recitations":[
+        {
+            "section":"R01  (McKenna)",
+            "day_time":"Monday, 3:30pm-4:30pm",
+            "location":"Javits 100",
+            "ta_1":"Joe Shmoe",
+            "ta_2":"John Doe"
+        },
+        {
+            "section":"R02  (Banerjee)",
+            "day_time":"Tuesday, 3:30pm-4:30pm",
+            "location":"OLD CS 2178",
+            "ta_1":"Kendall Jenner",
+            "ta_2":"Mila Kunis"
+        },
+        {
+            "section":"R01  (Esmaili)",
+            "day_time":"Wednesday, 1:30pm-2:30pm",
+            "location":"Frey 101",
+            "ta_1":"Taylor Swift",
+            "ta_2":"Hillary Clinton"
+        },
+        {
+            "section":"R02  (JWONG)",
+            "day_time":"Fridau, 10:30am-1:30pm",
+            "location":"Javits 100",
+            "ta_1":"Joe Shmoe",
+            "ta_2":"John Doe"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+
+{
+    "hw":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"HW 1",
+            "topic":"due at 11:59pm",
+            "link":"reddit.com",
+            "time":"",
+            "criteria":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"HW 2",
+            "topic":"due at 11:59pm",
+            "link":"reddit.com",
+            "time":"",
+            "criteria":"reddit.com"
+        }
+    ]
+}

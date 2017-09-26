@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="CSE 219 - Computer Science III - Spring 2017 - HW 5" />
+  <title>CSE 219 HW 5</title> 
+  <link rel="stylesheet" type="text/css" href="./css/course_homepage_layout.css" />
+  <link rel="stylesheet" type="text/css" href="./css/sea_wolf.css" />
+ </head>
+
+ <body>
+
+  <div id="content">
+
+   <div id="navbar">
+    <a href="http://www.stonybrook.edu"><img class="sbu_navbar" alt="Stony Brook University" src="../images/SBUDarkRedShieldLogo.png" /></a>
+    <a id="home_link" class="nav" href="./index.html">Home</a>
+    <a id="syllabus_link" class="nav" href="./syllabus.html">Syllabus</a>
+    <a id="schedule_link" class="nav" href="./schedule.html">Schedule</a>
+    <a id="hws_link" class="nav" href="./hws.html">HWs</a>
+   </div>
+
+   <div id="banner">CSE 219 - Spring 2017<br />
+    Computer Science III
+   </div>
+
+   <div id="desc">
+
+    <h1>Developing the <em>Course Site Generator</em> Application</h1>
+
+    <h2>HW 5 - Implementation Stage II</h2>
+
+ <p>In the second stage of our implementation we'll setup all of the file management. This means saving and loading application data as well as exporting course Web sites with properly working JavaScript code. Since we have not yet implemented all the UI interactions for entering data we'll have to artificially hard-code the creation of test data in order to test our file I/O. For this, let's use a separate set of test classes (i.e. drivers) to test our code. For these test classes, create a separate sub-package named <strong>test_bed</strong> within your application's home package where you'll keep them. So the test bed in HW 1 would have been put in tam.test_bed. The idea is that you'll prove your code for File I/O works independent of its use within the application's UI.</p>
+
+ <h3>Requirements</h3>
+
+ <p>In this assignment you must complete the following:</p>
+
+ <ul>
+  <li><strong>Data Saving</strong> - create a separate test class called <strong>TestSave</strong> in your test bed to test and demonstrate that complete app data saving works. Have your driver class hard-code the creation of all the necessary data, meaning good data for every UI control, including UI tables, and then send that data to be saved to your file manager such that it may write it to a file name called <strong>SiteSaveTest.json</strong>. You should be using a JSON format which has the advantage of being human readable. So, examine your output file to ensure it is in its proper format.<br /><br /></li>
+			
+  <li><strong>Unit Testing Loading</strong> - now create a series of JUnit tests that will use the hard-coded data written to <strong>SiteSaveTest.json</strong> as its expected type and the data loaded as its actual type. So, using JUnit, you should be verifying that all the data written to the JSON file loads properly. Note that the point of using JUnit is that it provides a consistent format for setting up tests and will compile stats for results.<br /><br /></li>
+
+  <li><strong>UI Loading Integration</strong> - once you have implemented and tested saving and loading, integrate loading into your application's UI. Note that the user should now be able to press the load button and select the file to load. Then, the file's data should fully load into your user interface controls, meaning for all five screens.<br /><br /></li>
+
+  <li><strong>Site Exporting</strong> - Now it's time to get exporting working. When the user clicks the Export button it should export the full site according to the currently loaded settings. This menas all HTML pages and directories that are part of the site template (like css, images, js, etc.). Note that you will have to consider at this time how to properly export data into the various .json files for the site pages, and then how to properly load the data vis JavaScript, so yes, in this assignment you're going to have to write a bit of JavaScript. Now, the important thing to note is <span style='color:red'>everything that is to appear in a page that may be edited via the UI must be loaded by JavaScript into the page</span>. Right? This means even things like the course name and number. It's important that you understand this before diving in because this will determine the formats of your .json files and how your JavaScript works. Note that you may use any JavaScript code you like from my existing courses like <a href='http://www.cs.stonybrook.edu/~cse219/Section02'>CSE 219</a>, <a href='http://www.cs.stonybrook.edu/~cse308/Section01'>CSE 308</a>, and <a href='http://www.cs.stonybrook.edu/~cse380'>CSE 380</a>. Be careful with these sites, by the way, there are some slight differences versioning differences between the .json and JavaScript files you may find there.<br /><br /></li>
+ </ul>
+  
+
+<h3>Handin Instructions</h3>
+<p>When you are done, zip up and submit any projects where you changed code as a single zip file. Note that you should add your name as the author to any source file you provide.<br /><br /></p>
+
+
+<h3>Grading</h3>
+<p>Note that grading for this assignment will be done using the <strong>HW 5 Grading Criteria</strong> spreadsheet, which will be posted before the due date. Grading will only be done by appointment with each student's prescribed Teaching Assistant. <br /><br /></p>
+
+    <br /><br />
+
+    <hr />
+    <p style="font-size:9pt; text-align:center;">    <a href="http://www.stonybrook.edu"><img class="sunysb" style="float:left" src="../images/SBUWhiteShieldLogo.jpg" alt="SBU" /></a>
+    <a href="http://www.cs.stonybrook.edu"><img style="float:right" src="./images/CSLogo.png" alt="CS" /></a>
+
+    <p style="font-size:9pt; text-align:center;">Web page created and maintained<br />
+     by <a href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a><br /><br /><br /><br /></p>
+
+   </div>
+  </div>
+ </body>
+</html>

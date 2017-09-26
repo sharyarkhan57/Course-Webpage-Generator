@@ -1,0 +1,69 @@
+
+{
+    "teams":[
+        {
+            "name":"Best Team",
+            "red":0,
+            "green":0,
+            "blue":0,
+            "text_color":"black"
+        },
+        {
+            "name":"Dream Team",
+            "red":0,
+            "green":0,
+            "blue":0,
+            "text_color":"black"
+        }
+    ],
+    "students":[
+        {
+            "lastName":"Khan",
+            "firstName":"Sharyar",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Grande",
+            "firstName":"Ariana",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Stalin",
+            "firstName":"Jospeh",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Trump",
+            "firstName":"Donald",
+            "team":"Best Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"West",
+            "firstName":"Kanye",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"James",
+            "firstName":"Lebron",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"DADDY",
+            "firstName":"Trump",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"Sweatshirt",
+            "firstName":"Earl",
+            "team":"Dream Team",
+            "role":"Lead Programmer"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+
+{
+    "startingMondayMonth":"1",
+    "startingMondayDay":"6",
+    "endingFridayMonth":"12",
+    "endingFridayDay":"8",
+    "holiday":[
+        {
+            "month":"4",
+            "day":"1",
+            "title":"April Fools",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"14",
+            "title":"Pi Day",
+            "link":"reddit.com"
+        }
+    ],
+    "lectures":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"lecture",
+            "link":"Java 1"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"lecture",
+            "link":"Java 2"
+        },
+        {
+            "month":"3",
+            "day":"8",
+            "title":"lecture",
+            "link":"Java 3"
+        },
+        {
+            "month":"3",
+            "day":"10",
+            "title":"lecture",
+            "link":"Java 4"
+        }
+    ],
+    "references":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"References",
+            "link":"reddit.com"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"References",
+            "link":"reddit.com"
+        }
+    ],
+    "recitationss":[
+        {
+            "month":"3",
+            "day":"2",
+            "title":"Recitation 1",
+            "topic":"JavaFX Examples part 2"
+        },
+        {
+            "month":"3",
+            "day":"4",
+            "title":"Recitation 2",
+            "topic":"JavaFX Examples part 2"
+        }
+    ]
+}
